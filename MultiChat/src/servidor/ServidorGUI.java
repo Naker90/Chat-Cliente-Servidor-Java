@@ -82,7 +82,7 @@ public class ServidorGUI {
 		log.setEnabled(false);
 
 		JScrollPane scroll_log = new JScrollPane(log);
-		scroll_log.setBounds(10, 345, 460, 100);
+		scroll_log.setBounds(10, 350, 460, 100);
 
 		frame.add(lblususarios);
 		frame.add(lista_usuarios);

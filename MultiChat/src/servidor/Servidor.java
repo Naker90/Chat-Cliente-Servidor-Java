@@ -45,7 +45,7 @@ public class Servidor {
 		}
 	}
 	
-	public static void add_usuario(String nick){
+	public static void add_nombreUsusario(String nick){
 		usuarios_conectados[puntero_ususarios] = nick;
 		puntero_ususarios++;
 		ServidorGUI.actualizarUsusarios(usuarios_conectados, puntero_ususarios);

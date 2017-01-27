@@ -18,7 +18,6 @@ public class Escucha extends Thread {
 				Socket conexion;
 				conexion = server_socket.accept();
 				new Ususario(conexion).start();
-
 			}
 		} catch (IOException ioe) {
 			System.err.println("[Error] " + Escucha.class.getName() + " " + ioe.getMessage());	

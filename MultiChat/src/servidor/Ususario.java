@@ -37,7 +37,7 @@ public class Ususario extends Thread {
 						dos.writeInt(3);//[OK]Aceptacion de ususario.
 						user_nick = nick;
 						ServidorGUI.log_add("[OK] Nuevo ususario conectado " + nick);
-						Servidor.add_usuario(nick);
+						Servidor.add_nombreUsusario(nick);
 						Servidor.insertar_ususario(this);
 						Escuchar();
 					}else{
